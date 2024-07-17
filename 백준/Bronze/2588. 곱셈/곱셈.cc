@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 int main() {
-    int A, B, C, D, E, F;
+    int A, B;
     scanf("%d\n%d", &A, &B);
     printf("%d\n%d\n%d\n%d", A*(B%10), A*((B/10)%10), A*(B/100),A*B);
 
